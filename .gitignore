@@ -416,3 +416,54 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+#== User-specific files and folders ==
+# Editor files
+.idea/
+*.swp
+*.swo
+*.
+Thumbs.db
+Desktop.ini
+
+# Runtime sessions and logs
+SystemRepairLogs/
+logs/
+runtime/
+scratch/
+tmp/
+**/Phases/
+**/CopiedLogs/
+*.etl
+*.cab
+*.dmp
+*.log.bak
+
+# Local validation artifacts
+SystemFilesCheck_SourceValidation.json
+SystemFilesCheck_SourceValidation.md
+live-repair-summary.json
+post-repair-validation-summary.json
+source-live-validation-summary.json
+tmp-live-summary.json
+tests/tmp-*.json
+_tmp*
+
+# Large local source media
+*.iso
+*.wim
+*.esd
+*.swm
+*.ffu
+
+# Local packaging outputs
+dist/
+archives/
+*.zip
+*.7z
+
+# Historical task-log trees and local backups
+20[0-9][0-9]-[0-9][0-9]-[0-9][0-9]/
+20[0-9][0-9]-[0-9][0-9]-[0-9][0-9]_[0-9][0-9].zip
+20[0-9][0-9]-[0-9][0-9]-[0-9][0-9]_*/
+backups/
